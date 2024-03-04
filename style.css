@@ -1,0 +1,75 @@
+body{
+  background-color: #023047;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+  max-width: 400px; 
+  height: auto;
+  background-color: #fb8500;
+  box-shadow: 0 0 8px;
+  border-radius: 10px;  
+  padding-bottom: 20px;
+}
+
+.title{
+  font-family: 'Lemon Milk';
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffb703;
+}
+
+.watch-icon{
+  height: 20px;
+  margin: -2px;
+}
+
+.stop-watch{
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  background-color: #8ecae6;
+  height: 75px;
+  text-align: center;
+  font-family: 'Lemon Milk';
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  letter-spacing: 1px;
+}
+
+.button-grid{
+  display: flex;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  column-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  overflow: hidden;
+}
+
+.start-stop-button,
+.reset-button{
+  font-family: 'Lemon Milk';
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #219ebc;
+  border: none;
+  cursor: pointer;
+}
+
+.start-stop-button:hover,
+.reset-button:hover{
+  box-shadow: 0 0 10px white;
+}
+
